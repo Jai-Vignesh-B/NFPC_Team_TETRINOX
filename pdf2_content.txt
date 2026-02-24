@@ -1,0 +1,35 @@
+=== Page 1 ===
+National Fraud Prevention
+Challenge
+Bringing together India's AI and ML talent to tackle a critical challenge:
+Detecting and Preventing financial fraud through innovative data
+analysis and creative problem-solving.
+preencoded.png
+
+=== Page 2 ===
+Your Mission: Deep
+Understanding Before Solutions
+The Challenge
+This hackathon is designed to harness India's AI and machine learning expertise
+for a real, high-impact problem. We're not just evaluating technical skills - we're
+looking for teams who can think critically, show creativity, and translate data
+insights into actionable fraud detection strategies.
+Stage 1 is about understanding the problem deeply before jumping
+into solutions.
+preencoded.png
+
+=== Page 3 ===
+Phase 1: The Foundation
+Build your analytical foundation through exploratory data analysis and innovative feature design.
+Exploratory Data Analysis Feature Engineering Pattern Recognition
+Work with labelled synthetic datasets to Design meaningful supervised and Identify patterns indicative of mule
+uncover transaction patterns and fraud unsupervised features that capture real- accounts and suspicious transaction
+indicators. world fraud behavior. behavior.
+Key Deliverables
+01 02 03
+Insights Discovery Feature Design Real-World Connection
+Clearly explain what you found and why it Document your feature engineering approach Show how features relate to actual fraud
+matters scenarios
+Teams that demonstrate strong analytical reasoning and innovative feature thinking will be shortlisted for Phase 2.
+preencoded.png
+

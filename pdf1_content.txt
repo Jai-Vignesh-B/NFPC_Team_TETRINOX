@@ -1,0 +1,184 @@
+=== Page 1 ===
+NATIONAL FRAUD PREVENTION
+CHALLENGE
+
+=== Page 2 ===
+National Fraud Prevention Challenge (NFPC)
+Unlocking India’s Next Generation of AI talent in financial security
+Hosted by: Reserve Bank Innovation Hub (RBIH), a fully owned subsidiary of RBI and IIT
+Delhi TRYST
+Inviting India’s top academic institutions to participate in the first-of-its-kind AI Hackathon
+focused on detecting financial fraud.
+About the Challenge
+The National Fraud Prevention Challenge (NFPC) is a multi-stage hackathon launched by
+RBIH along with IIT Delhi TRYST as a partner to tap into India’s top AI/ML talent and accelerate
+innovation on the MuleHunter.ai™ /Digital payments intelligence platform, an advanced AI
+system built to detect mule accounts used in financial fraud.
+This is not just a competition. It’s a gateway to real-world impact, elite employment
+opportunities, and national-level recognition.
+Objective: • Enhance and expand AI/ML capabilities for MuleHunter AI
+and DPIP.
+• Identify top AI/ML talent specializing in fraud analytics, anomaly detection, and
+advanced ML research.
+• Encourage academic and research institutions to collaborate on real-world financial
+security challenges.
+• Build a pipeline of interns/employees for RBIH's AI team.
+• Promote long-term partnerships with leading universities and research group
+Phase 1 Objectives for Participating in Teams
+Selected participants will be given a labelled synthetic dataset and are required to:
+• Perform Exploratory Data Analysis (EDA)
+• Design features (both supervised & unsupervised) to capture anomalous behavior of
+mule accounts
+
+=== Page 3 ===
+• Demonstrate the ability to think creatively and analytically with real-world fraud
+patterns
+Who Can Apply?
+Each team must consist of 2 to 4 members, and can include:
+• 3rd, or 4th Year UG/PG students
+• PhD scholars
+• Professors or Researchers
+• Specialized AI Labs or Campus Fintech Clubs
+Top institutions and labs will be considered for long-term partnerships based on quality of
+submissions.
+Hackathon Tracks in Later Phases:
+Participants advancing through further stages will work on:
+• Train algorithms
+• Graph-based fraud detection
+• Concept drift & auto-retraining modules
+• Explainable AI (XAI) architecture
+• High-performance sequential/transformer models
+Prizes & Incentives
+• Cash Prizes: ₹5L (1st), ₹3L (2nd), ₹2L (3rd)
+• Employment Offer: Selected participants will receive guaranteed roles/internships
+at Reserve Bank Innovation Hub to work on the MuleHunter/DPIP platform.
+Why Participate?
+Value What You Get
+🔒 Real Impact Work on national fraud prevention with RBIH
+💡 Skill Recognition Showcase unsupervised/supervised ML, EDA, and feature design expertise
+💼 Career Breakthrough Secure roles in RBIH’s AI team
+
+=== Page 4 ===
+🏛 Institutional Branding Be part of India's pioneering AI challenge in financial security
+Submission Requirements (per team)
+1. Cover Letter (PDF or DOCX)
+• Brief introduction of the team
+• Motivation for participating in the NFPC
+2. Team Composition Details
+• Names, roles (e.g., Team Lead, ML Lead, etc.), and email IDs
+• Educational background (Year, Degree, Department)
+3. Qualification Summary
+Summary of each member’s relevant experience in:
+• Machine Learning / Deep Learning
+• Financial analytics or fraud detection (if any)
+• Projects, publications, or competitions (e.g., Kaggle, IEEE papers, GitHub links)
+4. Evaluation Framework
+Evaluation Dimension What We Look For Key Indicators Weightage
+Data integrity checks, class imbalance
+Exploratory Data Analysis Depth of understanding analysis, temporal patterns,
+(EDA Quality & Data of the dataset and fraud behavioral insights specific to mule
+Understanding) context accounts 25%
+Behavioral, temporal, graph-based or
+Feature Engineering & Creativity and relevance anomaly-driven features; clear
+Innovation of features designed justification for feature choices 30%
+Appropriate use of
+supervised/unsupervised methods,
+ML Approach & Analytical Soundness of modeling handling of imbalance, robustness,
+Rigor approach reasoning over metrics 25%
+Ability to map ML Identification of mule patterns, flow
+insights to real-world analysis, rationale aligned with
+Fraud Domain Reasoning fraud behavior financial crime scenarios 10%
+Clarity of Documentation & Quality of explanation Logical flow, clear assumptions, visual
+Communication and structure clarity, reproducibility of approach 10%
+Total 100%
+
+=== Page 5 ===
+Intellectual Property (IP) & Data Governance
+All datasets shared as part of the National Fraud Prevention Challenge (NFPC) are
+synthetic and provided strictly for the purpose of this challenge.
+Participants are required to adhere to the following:
+• The datasets must be used only for NFPC-related submissions
+• No attempts should be made to re-identify individuals, entities, or real-world
+accounts
+• Any code, models, or approaches developed during the challenge will be governed
+by RBIH’s hackathon IP framework
+RBIH reserves the right to evaluate, adapt, or extend promising ideas or approaches for
+internal research or deployment, with appropriate acknowledgment of contributors.
+Detailed IP and data usage guidelines will be shared with shortlisted teams.
+Ethical AI & Responsible Innovation Guidelines
+Participants are expected to follow responsible and ethical AI practices throughout the
+challenge. This includes:
+• Designing models that minimize bias and unfair outcomes
+• Ensuring transparency and explainability wherever feasible
+• Avoiding misuse of data or unethical model behavior
+• Aligning solutions with regulatory, security, and public-interest considerations
+Any violation of ethical AI guidelines or misuse of data may result in disqualification from
+the challenge.
+Governance & Jury Structure
+Submissions will be reviewed and evaluated by a multi-disciplinary jury comprising:
+• Members of the RBIH AI and technology teams
+• Fraud risk and financial crime domain experts
+• External academic or industry experts, as required
+
+=== Page 6 ===
+The jury will evaluate submissions based on predefined criteria to ensure fairness,
+objectivity, and consistency. The jury’s decisions will be final and binding.
+Mentorship & Participant Support
+To support participants and ensure clarity, RBIH may provide:
+• Orientation or dataset walkthrough sessions
+• Limited technical office hours
+• Clarification sessions on fraud patterns and problem expectations
+These sessions are intended to guide participants and answer queries, without influencing
+solution design or evaluation outcomes.
+For Submissions & Queries:
+Email: nfpc@rbihub.in or startups@rbihub.in
+Let’s solve India’s most critical financial fraud challenge — together.
+Reserve Bank Innovation Hub (RBIH)
+Bangalore | Link: Reserve Bank Innovation Hub
+Phase 1: Feature Understanding & Improvement
+Purpose:
+Assess participants’ ability to understand fraud data and design meaningful features that
+capture mule-account behavior.
+Teams
+Activity Evaluation Focus Outcome Advancing
+Exploratory Data Analysis Data understanding and fraud Identification of strong
+(EDA) insights analytical teams ~25–30%
+Identification of mule account High-quality feature
+patterns Fraud-domain reasoning hypotheses
+Feature improvement Relevance, novelty, and
+(supervised & unsupervised) justification Shortlisting for Phase 2
+
+=== Page 7 ===
+Feature design report
+submission Clarity and structure
+Note: No full model development is required. Emphasis on thinking, reasoning, and
+feature quality.
+Phase 2: Model Development & Validation (Final Phase)
+Purpose:
+Evaluate the ability to translate strong features into robust, explainable, and scalable ML
+models.
+Activity Evaluation Focus Outcome Final Selection
+Model training using Appropriateness of ML Robust ML solutions
+selected features approach identified Top 3–5 teams
+Deployment-ready
+Handling imbalance & drift Practical robustness thinking
+Transparency and Regulator-friendly
+Explainability (XAI) interpretability approaches
+Final submission &
+presentation Clarity, feasibility, and impact Winners announced
+Note: Phase 2 serves as the final evaluation and selection phase.
+Problem Statement
+In Phase 1, participants are expected to:
+• Perform thorough Exploratory Data Analysis (EDA) to understand transaction
+behavior and fraud context
+• Design innovative supervised and unsupervised features that highlight anomalous
+and mule-like behavior
+• Demonstrate clear reasoning that connects data insights to real-world financial
+crime patterns
+
+=== Page 8 ===
+• The outcomes of this challenge will directly contribute to strengthening
+MuleHunter.ai™ and the Digital Payments Intelligence Platform (DPIP)—RBIH’s AI
+systems aimed at national fraud prevention—while identifying India’s next
+generation of AI talent in financial security.
+

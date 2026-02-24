@@ -1,0 +1,42 @@
+﻿
+=== customers.csv: (39988, 14) ===
+Columns: ['customer_id', 'date_of_birth', 'relationship_start_date', 'pan_available', 'aadhaar_available', 'passport_available', 'mobile_banking_flag', 'internet_banking_flag', 'atm_card_flag', 'demat_flag', 'credit_card_flag', 'fastag_flag', 'customer_pin', 'permanent_pin']
+   customer_id date_of_birth relationship_start_date pan_available aadhaar_available passport_available mobile_banking_flag internet_banking_flag atm_card_flag demat_flag credit_card_flag fastag_flag  customer_pin  permanent_pin
+0  CUST_000001    1992-12-26              2008-04-09             Y                 Y                  N                   Y                     Y             Y          N                Y           N        613004         613004
+1  CUST_000006    1950-05-01              2005-08-01             Y                 Y                  N                   Y                     N             Y          N                N           Y        400106         400106
+Nulls: {'customer_id': np.int64(0), 'date_of_birth': np.int64(0), 'relationship_start_date': np.int64(0), 'pan_available': np.int64(5732), 'aadhaar_available': np.int64(9708), 'passport_available': np.int64(0), 'mobile_banking_flag': np.int64(0), 'internet_banking_flag': np.int64(0), 'atm_card_flag': np.int64(0), 'demat_flag': np.int64(0), 'credit_card_flag': np.int64(0), 'fastag_flag': np.int64(0), 'customer_pin': np.int64(0), 'permanent_pin': np.int64(0)}
+
+=== accounts.csv: (40038, 22) ===
+Columns: ['account_id', 'account_status', 'product_code', 'currency_code', 'account_opening_date', 'branch_code', 'branch_pin', 'avg_balance', 'product_family', 'nomination_flag', 'cheque_allowed', 'cheque_availed', 'num_chequebooks', 'last_mobile_update_date', 'kyc_compliant', 'last_kyc_date', 'rural_branch', 'monthly_avg_balance', 'quarterly_avg_balance', 'daily_avg_balance', 'freeze_date', 'unfreeze_date']
+    account_id account_status  product_code  currency_code account_opening_date  branch_code  branch_pin  avg_balance product_family nomination_flag cheque_allowed cheque_availed  num_chequebooks last_mobile_update_date kyc_compliant last_kyc_date rural_branch  monthly_avg_balance  quarterly_avg_balance  daily_avg_balance freeze_date unfreeze_date
+0  ACCT_000001         active           100              1           2023-04-25         8229    613004.0      1526.01              S               N              Y              N                0                     NaN             N    2022-04-13            N              1663.31                1830.69            1950.13         NaN           NaN
+1  ACCT_000006         active          1133              1           2021-07-01         6076    400106.0     -1048.82              O               N              N              N                0                     NaN             Y    2022-04-12            N              -910.01               -1136.48           -1208.54         NaN           NaN
+Nulls: {'account_id': np.int64(0), 'account_status': np.int64(0), 'product_code': np.int64(0), 'currency_code': np.int64(0), 'account_opening_date': np.int64(0), 'branch_code': np.int64(0), 'branch_pin': np.int64(2009), 'avg_balance': np.int64(1203), 'product_family': np.int64(0), 'nomination_flag': np.int64(0), 'cheque_allowed': np.int64(0), 'cheque_availed': np.int64(0), 'num_chequebooks': np.int64(0), 'last_mobile_update_date': np.int64(34001), 'kyc_compliant': np.int64(0), 'last_kyc_date': np.int64(0), 'rural_branch': np.int64(0), 'monthly_avg_balance': np.int64(1203), 'quarterly_avg_balance': np.int64(0), 'daily_avg_balance': np.int64(0), 'freeze_date': np.int64(38721), 'unfreeze_date': np.int64(39613)}
+
+=== train_labels.csv: (24023, 5) ===
+Columns: ['account_id', 'is_mule', 'mule_flag_date', 'alert_reason', 'flagged_by_branch']
+    account_id  is_mule mule_flag_date alert_reason  flagged_by_branch
+0  ACCT_023272        0            NaN          NaN                NaN
+1  ACCT_062177        0            NaN          NaN                NaN
+Nulls: {'account_id': np.int64(0), 'is_mule': np.int64(0), 'mule_flag_date': np.int64(23760), 'alert_reason': np.int64(23781), 'flagged_by_branch': np.int64(23760)}
+
+=== test_accounts.csv: (16015, 1) ===
+Columns: ['account_id']
+    account_id
+0  ACCT_027260
+1  ACCT_119686
+Nulls: {'account_id': np.int64(0)}
+
+=== customer_account_linkage.csv: (40038, 2) ===
+Columns: ['customer_id', 'account_id']
+   customer_id   account_id
+0  CUST_000001  ACCT_000001
+1  CUST_000006  ACCT_000006
+Nulls: {'customer_id': np.int64(0), 'account_id': np.int64(0)}
+
+=== product_details.csv: (39988, 11) ===
+Columns: ['customer_id', 'loan_sum', 'loan_count', 'cc_sum', 'cc_count', 'od_sum', 'od_count', 'ka_sum', 'ka_count', 'sa_sum', 'sa_count']
+   customer_id  loan_sum  loan_count    cc_sum  cc_count    od_sum  od_count  ka_sum  ka_count   sa_sum  sa_count
+0  CUST_000001       NaN           0 -75964.52         1      0.00         0     0.0         0  1526.01         1
+1  CUST_000006       NaN           0       NaN         0 -52331.47         1     0.0         0     0.00         0
+Nulls: {'customer_id': np.int64(0), 'loan_sum': np.int64(31485), 'loan_count': np.int64(0), 'cc_sum': np.int64(33687), 'cc_count': np.int64(0), 'od_sum': np.int64(0), 'od_count': np.int64(0), 'ka_sum': np.int64(0), 'ka_count': np.int64(0), 'sa_sum': np.int64(0), 'sa_count': np.int64(0)}

@@ -1,0 +1,139 @@
+﻿python : Traceback 
+(most recent call 
+last):
+At line:1 char:1
++ python C:\Users\jai
+vi\OneDrive\Desktop\u
+pi\generate_pdf.py 
+2>&1 | Out ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Traceba   
+ ck (most recent     
+call last)::Stri    
+ng) [], RemoteEx    
+ception
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+  File "C:\Users\jaiv
+i\AppData\Local\Packa
+ges\PythonSoftwareFou
+ndation.Python.3.13_q
+bz5n2kfra8p0\LocalCac
+he\local-packages\Pyt
+hon313\site-packages\
+fpdf\fpdf.py", line 
+5685, in 
+normalize_text
+    return text.encod
+e(self.core_fonts_enc
+oding).decode("latin-
+1")
+           ~~~~~~~~~~
+~^^^^^^^^^^^^^^^^^^^^
+^^^^^^
+UnicodeEncodeError: 
+'latin-1' codec 
+can't encode 
+character '\u2014' 
+in position 13: 
+ordinal not in 
+range(256)
+
+The above exception 
+was the direct cause 
+of the following 
+exception:
+
+Traceback (most 
+recent call last):
+  File "C:\Users\jaiv
+i\OneDrive\Desktop\up
+i\generate_pdf.py", 
+line 142, in <module>
+    pdf.add_page()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\jaiv
+i\AppData\Local\Packa
+ges\PythonSoftwareFou
+ndation.Python.3.13_q
+bz5n2kfra8p0\LocalCac
+he\local-packages\Pyt
+hon313\site-packages\
+fpdf\fpdf.py", line 
+1216, in add_page
+    self.header()
+    ~~~~~~~~~~~^^
+  File "C:\Users\jaiv
+i\OneDrive\Desktop\up
+i\generate_pdf.py", 
+line 21, in header
+    self.cell(0, 6, 
+'NFPC Phase 1 ù EDA 
+Report', align='L')
+    ~~~~~~~~~^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
+  File "C:\Users\jaiv
+i\AppData\Local\Packa
+ges\PythonSoftwareFou
+ndation.Python.3.13_q
+bz5n2kfra8p0\LocalCac
+he\local-packages\Pyt
+hon313\site-packages\
+fpdf\fpdf.py", line 
+283, in wrapper
+    return fn(*args, 
+**kwargs)
+  File "C:\Users\jaiv
+i\AppData\Local\Packa
+ges\PythonSoftwareFou
+ndation.Python.3.13_q
+bz5n2kfra8p0\LocalCac
+he\local-packages\Pyt
+hon313\site-packages\
+fpdf\deprecation.py",
+ line 36, in wrapper
+    return fn(*args, 
+**kwargs)
+  File "C:\Users\jaiv
+i\AppData\Local\Packa
+ges\PythonSoftwareFou
+ndation.Python.3.13_q
+bz5n2kfra8p0\LocalCac
+he\local-packages\Pyt
+hon313\site-packages\
+fpdf\fpdf.py", line 
+3912, in cell
+    text = self.norma
+lize_text(text)
+  File "C:\Users\jaiv
+i\AppData\Local\Packa
+ges\PythonSoftwareFou
+ndation.Python.3.13_q
+bz5n2kfra8p0\LocalCac
+he\local-packages\Pyt
+hon313\site-packages\
+fpdf\fpdf.py", line 
+5687, in 
+normalize_text
+    raise FPDFUnicode
+EncodingException(
+    ...<3 lines>...
+    ) from error
+fpdf.errors.FPDFUnico
+deEncodingException: 
+Character "ù" at 
+index 13 in text is 
+outside the range of 
+characters supported 
+by the font used: 
+"helveticaI". Please 
+consider using a 
+Unicode font.
